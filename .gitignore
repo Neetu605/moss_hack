@@ -1,0 +1,12 @@
+.next
+node_modules
+.env
+.env*.local
+dist
+coverage
+*.log
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+node_modules/
