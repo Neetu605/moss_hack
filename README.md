@@ -188,7 +188,28 @@ http://localhost:3000
 ```
 
 ---
+## Getting Started
 
+### Configure Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+### Run the Development Server
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
 ## Design Principles
 
 * Modern SaaS Experience
